@@ -39,7 +39,7 @@
                 <!-- 内存模式 -->
                 <!-- <property name="URL" value="jdbc:h2:mem:test" /> -->
                 <!-- 文件模式 -->
-                <property name="URL" value="jdbc:h2:testRestDB" />                 
+                <property name="URL" value="jdbc:h2:bin/h2/springProjectTemplateDB" />                 
                 <property name="user" value="sa" />
                 <property name="password" value="sa" />
             </bean>

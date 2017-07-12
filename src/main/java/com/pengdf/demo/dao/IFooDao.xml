@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pengdf.demo.dao.IFooDao">
+    <insert id="addUser" parameterType="com.pengdf.demo.model.FooVO">
+        insert into t_foo
+        (
+            id
+        )
+        values
+        (
+            #{foo.id}
+        )
+    </insert>
+</mapper>
