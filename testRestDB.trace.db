@@ -1,0 +1,14 @@
+07-12 15:23:27 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER_T" not found; SQL statement:
+insert into user_t
+        (
+            user_id,
+            user_name,
+            password
+        )
+        values
+        (
+            ?,
+            ?,
+            ?
+        ) [42102-172]
